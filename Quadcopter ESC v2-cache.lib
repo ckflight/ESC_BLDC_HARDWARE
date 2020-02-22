@@ -1,0 +1,259 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Quadcopter-ESC-v2-rescue_+12V-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_+12V-Quadcopter-ESC-v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Quadcopter-ESC-v2-rescue_+12V-Quadcopter-ESC-v2-rescue" 0 150 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 75 0 125 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 0 125 N
+P 2 0 1 0 0 125 30 75 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_+3.3V-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_+3.3V-Quadcopter-ESC-v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Quadcopter-ESC-v2-rescue_+3.3V-Quadcopter-ESC-v2-rescue" 0 150 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 75 0 125 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 0 125 N
+P 2 0 1 0 0 125 30 75 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_+VBattery-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_+VBattery-Quadcopter-ESC-v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Quadcopter-ESC-v2-rescue_+VBattery-Quadcopter-ESC-v2-rescue" 0 150 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 75 0 125 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 0 125 N
+P 2 0 1 0 0 125 30 75 N
+X +VBattery 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_Capacitor-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_Capacitor-Quadcopter-ESC-v2-rescue C 0 10 N N 1 F N
+F0 "C" 15 40 20 H V L CNB
+F1 "Quadcopter-ESC-v2-rescue_Capacitor-Quadcopter-ESC-v2-rescue" 5 0 20 H V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 50 25 D 50 50 1 1 P
+X ~ 2 0 -50 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_EFM8BB21-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_EFM8BB21-Quadcopter-ESC-v2-rescue U 0 40 Y Y 1 F N
+F0 "U" 450 550 60 H V C CNN
+F1 "Quadcopter-ESC-v2-rescue_EFM8BB21-Quadcopter-ESC-v2-rescue" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -500 500 500 -500 0 1 20 f
+X P0.1 1 600 300 106 L 39 39 1 1 I
+X P1.3 10 -150 -600 106 U 39 39 1 1 I
+X P1.2 11 -600 -200 106 R 39 39 1 1 I
+X GND 12 -600 -100 106 R 39 39 1 1 I
+X P1.1 13 -600 0 106 R 39 39 1 1 I
+X P1.0 14 -600 100 106 R 39 39 1 1 I
+X P0.7 15 -600 200 106 R 39 39 1 1 I
+X P0.6 16 -600 300 106 R 39 39 1 1 I
+X P0.5 17 -200 600 106 D 39 39 1 1 I
+X P0.4 18 -100 600 106 D 39 39 1 1 I
+X P0.3 19 0 600 106 D 39 39 1 1 I
+X P0.0 2 600 200 106 L 39 39 1 1 I
+X P0.2 20 100 600 106 D 39 39 1 1 I
+X EXP 21 200 600 106 D 39 39 1 1 I
+X GND 3 600 100 106 L 39 39 1 1 I
+X VDD 4 600 0 106 L 39 39 1 1 I
+X RSTb/C2CK 5 600 -100 106 L 39 39 1 1 I
+X P2.0/C2D 6 600 -200 106 L 39 39 1 1 I
+X P1.6 7 150 -600 106 U 39 39 1 1 I
+X P1.5 8 50 -600 106 U 39 39 1 1 I
+X P1.4 9 -50 -600 106 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_GND-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_GND-Quadcopter-ESC-v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Quadcopter-ESC-v2-rescue_GND-Quadcopter-ESC-v2-rescue" 0 -125 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 F
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_L78L12-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_L78L12-Quadcopter-ESC-v2-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 300 39 H V C CNB
+F1 "Quadcopter-ESC-v2-rescue_L78L12-Quadcopter-ESC-v2-rescue" 0 -100 39 H V C CNB
+F2 "" -25 0 60 H I C CNN
+F3 "" -25 0 60 H I C CNN
+DRAW
+S -225 250 225 -50 0 1 20 f
+X VOUT 1 -350 200 126 R 47 47 1 1 w
+X GND 2 350 100 126 L 47 47 1 1 I
+X VIN 3 -350 0 126 R 47 47 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_MCP1755T-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_MCP1755T-Quadcopter-ESC-v2-rescue U 0 40 Y Y 1 F N
+F0 "U" 15 380 39 H V C CNB
+F1 "Quadcopter-ESC-v2-rescue_MCP1755T-Quadcopter-ESC-v2-rescue" 0 125 39 H V C CNB
+F2 "" 25 -50 31 H I C CNN
+F3 "" 25 -50 31 H I C CNN
+DRAW
+S -275 350 275 -350 0 1 20 f
+X VIN 1 -400 250 118 R 50 50 1 1 W
+X GND 2 -400 -250 118 R 50 50 1 1 I
+X EN 3 -400 0 118 R 50 50 1 1 I
+X PWRGD 4 400 -250 118 L 50 50 1 1 I
+X VOUT 5 400 250 118 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_MOSFET_N_8Pin-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_MOSFET_N_8Pin-Quadcopter-ESC-v2-rescue Q 0 0 Y N 1 F N
+F0 "Q" -300 150 50 H V L CNN
+F1 "Quadcopter-ESC-v2-rescue_MOSFET_N_8Pin-Quadcopter-ESC-v2-rescue" 250 -250 50 V V L CNN
+F2 "" 0 -344 50 H I C CIN
+F3 "" -50 0 50 H I L CNN
+DRAW
+C 25 -150 5 0 0 10 N
+C 25 -50 5 0 0 10 N
+C 25 50 5 0 0 10 N
+C 25 150 5 0 0 10 N
+C -50 150 5 0 1 10 N
+C 0 0 111 0 1 8 N
+C 50 150 5 0 1 10 N
+T 900 50 125 30 0 0 0 D Normal 0 C C
+T 900 -120 -70 30 0 0 0 G Normal 0 C C
+T 900 50 -125 30 0 0 0 S Normal 0 C C
+S -200 200 200 -200 0 1 12 f
+P 2 0 0 0 0 -200 0 -150 N
+P 2 0 0 0 25 -50 25 -150 N
+P 2 0 0 0 50 200 50 150 N
+P 4 0 0 0 -25 -50 60 -50 60 50 -25 50 N
+P 4 0 0 0 60 5 70 -15 50 -15 60 5 F
+P 4 0 0 0 75 15 70 10 50 10 45 5 N
+P 2 0 1 0 -150 -50 -200 -50 N
+P 2 0 1 0 -150 -50 -50 -50 N
+P 2 0 1 0 -50 200 -50 150 N
+P 2 0 1 15 -25 -65 -25 -35 N
+P 2 0 1 15 -25 -15 -25 15 N
+P 2 0 1 15 -25 35 -25 65 N
+P 2 0 1 0 25 50 25 150 N
+P 3 0 1 10 -50 -60 -50 60 -50 60 N
+P 3 0 1 0 -25 0 25 0 25 -50 N
+P 4 0 1 0 -100 -200 -100 -150 100 -150 100 -200 N
+P 4 0 1 0 15 -10 15 10 -10 0 15 -10 F
+P 4 0 1 0 150 200 150 150 -150 150 -150 200 N
+X S 1 100 -300 100 U 50 50 1 1 P
+X S 2 0 -300 100 U 50 50 1 1 P
+X S 3 -100 -300 100 U 50 50 1 1 P
+X G 4 -300 -50 100 R 50 50 1 1 P
+X D 5 -150 300 100 D 50 50 1 1 P
+X D 6 -50 300 100 D 50 50 1 1 P
+X D 7 50 300 100 D 50 50 1 1 P
+X D 8 150 300 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_MP1907-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_MP1907-Quadcopter-ESC-v2-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 400 39 H V C CNB
+F1 "Quadcopter-ESC-v2-rescue_MP1907-Quadcopter-ESC-v2-rescue" 0 0 39 H V C CNB
+F2 "" 0 100 39 H I C CNN
+F3 "" 0 100 39 H I C CNN
+DRAW
+S -350 350 350 -350 0 1 20 f
+X VDD 1 -500 300 138 R 47 47 1 1 W
+X DRVL 10 500 300 138 L 47 47 1 1 O
+X EXP 11 0 -500 138 U 47 47 1 1 I
+X NC 2 -500 150 138 R 47 47 1 1 I
+X BST 3 -500 0 138 R 47 47 1 1 I
+X DRVH 4 -500 -150 138 R 47 47 1 1 O
+X SW 5 -500 -300 138 R 47 47 1 1 I
+X EN 6 500 -300 138 L 47 47 1 1 I
+X INH 7 500 -150 138 L 47 47 1 1 I
+X INL 8 500 0 138 L 47 47 1 1 I
+X GND 9 500 150 138 L 47 47 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_Resistor-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_Resistor-Quadcopter-ESC-v2-rescue R 0 10 N N 1 F N
+F0 "R" -15 45 20 H V L CNB
+F1 "Quadcopter-ESC-v2-rescue_Resistor-Quadcopter-ESC-v2-rescue" 0 0 20 H V C CNB
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+S -70 -30 70 30 0 1 8 N
+X ~ 1 -100 0 30 R 50 50 1 1 P
+X ~ 2 100 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_SolderPad_1_Circle-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_SolderPad_1_Circle-Quadcopter-ESC-v2-rescue U 0 40 N N 1 F N
+F0 "U" -75 0 20 H V C CNB
+F1 "Quadcopter-ESC-v2-rescue_SolderPad_1_Circle-Quadcopter-ESC-v2-rescue" -5 -80 20 H V C CNB
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 F
+X 1 1 100 0 59 L 28 28 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Quadcopter-ESC-v2-rescue_SolderPad_1_Rectangle-Quadcopter-ESC-v2-rescue
+#
+DEF Quadcopter-ESC-v2-rescue_SolderPad_1_Rectangle-Quadcopter-ESC-v2-rescue U 0 40 N N 1 F N
+F0 "U" -75 0 20 H V C CNB
+F1 "Quadcopter-ESC-v2-rescue_SolderPad_1_Rectangle-Quadcopter-ESC-v2-rescue" -5 -80 20 H V C CNB
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 F
+X 1 1 100 0 59 L 28 28 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

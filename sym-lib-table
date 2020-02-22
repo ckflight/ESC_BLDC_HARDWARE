@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Quadcopter-ESC-v2-rescue)(type Legacy)(uri "${KIPRJMOD}/Quadcopter ESC v2-rescue.lib")(options "")(descr ""))
+)
