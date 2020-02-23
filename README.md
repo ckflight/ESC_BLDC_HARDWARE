@@ -1,7 +1,7 @@
 # ESC_Hardware
 BLDC 3 phase motor speed controller hardware design working with open source BLHeli_S firmware.
 
-The esc is tested with real quadcopter with up to 40A current rating per motor. Power MOSFETs on esc are capable of delivering up to 45A and 90A peak for short pulse.
+The esc is tested with real quadcopter with up to 40A current rating per motor. Power MOSFETs on esc are capable of delivering current up to 45A for normal operation and 90A peak for short pulse.
 
 
 Phase C has current bar trace. Or it can be done with extra solder on the trace.
