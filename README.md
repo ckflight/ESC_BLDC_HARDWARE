@@ -7,7 +7,7 @@ The esc is tested with real quadcopter up to 40A current rating per motor. Power
 
 Phase C has current bar trace. Or it can be done with extra solder on the trace.
 
-![esc_blheli_s](https://user-images.githubusercontent.com/61315249/103273682-ee00ff00-49d0-11eb-838d-979b3456a7ed.png)
+![esc1](https://user-images.githubusercontent.com/61315249/103273741-14269f00-49d1-11eb-8cd9-0c20945b51e4.png)
 
 ![esc1](https://user-images.githubusercontent.com/61315249/82239872-240dd900-9942-11ea-98cc-d76186299321.png)
 
