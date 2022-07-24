@@ -11,7 +11,7 @@
  * MP1907 High Frequency Half Bridge Gate driver is used for controlling the Power MOSFETs. High power MOSFET transistors have high Q and capacitance values. To open the gate it requires high amount of current in short amount of time where current requirement decreases exponentially. This is the reason for using a Gate Driver. Also an extra gate resistor is populated at the input of MOSFET gate pin.
  
  $$ Igate(max) = {Vgate \over Rgate} $$
- 
+
          4S Lipo Battery Vgate = 16V, Rgate = 10 Ohm and Igate(max) = 1.5A
  
  $$ Igate = {Qfet \over Tswitch} $$
