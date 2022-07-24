@@ -12,12 +12,12 @@
  
  $$ Igate(max) = {Vgate \over Rgate} $$
 
-         4S Lipo Battery Vgate = 16V, Rgate = 10 Ohm and Igate(max) = 1.5A
+          4S Lipo Battery Vgate = 16V, Rgate = 10 Ohm and Igate(max) = 1.5A
  
  $$ Igate = {Qfet \over Tswitch} $$
  
-          For a MOSFET with Qtotal = 50nC Tswtich = 500nS and Igate(needed) = 0.1A.
-          Therefore, a 100 Ohm gate resistor is populated.
+           For a MOSFET with Qtotal = 50nC Tswtich = 500nS and Igate(needed) = 0.1A.
+           Therefore, a 100 Ohm gate resistor is populated.
 
  * Phase C has current bar trace. Or it can be done with extra solder on the trace.
 
