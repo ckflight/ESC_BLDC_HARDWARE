@@ -1,4 +1,4 @@
-# ESC_BLDC_HARDWARE
+# BLHELI_S Electronic Speed Controller Hardware Design
 
 #### ESC Information:
 
