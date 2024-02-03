@@ -27,4 +27,28 @@
 
 ![esc2](https://user-images.githubusercontent.com/61315249/82239863-2112e880-9942-11ea-8ac3-22ef7c3397df.png)
 
+# BLHELI_S Firmware Flashing Guide
 
+When esc is new assembled the EFM8BB2 does not have BLHeli_S Bootloader.
+For the first time flashing, 4wire interface is used by using C2CK, C2D, 3.3v and GND pins where it will load both bootloader and firmware to esc.
+After this step, esc can be flashed with 1-Wire interface (Esc's pwm pin).
+
+***Flashing ESC for the first time.
+
+1. Open "Make interfaces" section
+2. Select the Arduino board that will be used as programmer.
+3. Click "Arduino 4way-interface" and flash it to arduino.
+   (Now arduino became a 4wire programmer)
+
+4. Select "SILABS C2 (4way if)"
+5. Connect Arduino to Custom ESC
+       GND to GND 
+       3.3v to 3.3v
+       Arduino Pin12 to C2D 
+       Arduino Pin11 to C2CK
+6. Open ESC Setup section and connect to esc and click Flash BLHeli
+   (choose suitable version, my custom quadcopter esc v2 is working with C type)
+
+Now the esc is both flashed with blheli bootloader and the blheli firmware, 
+therefore 1wire interface can be used which is the esc's pwm pin. 
+Or flight controller can be used in passthrough mode.
