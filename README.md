@@ -33,7 +33,7 @@ When esc is new assembled the EFM8BB2 does not have BLHeli_S Bootloader.
 For the first time flashing, 4wire interface is used by using C2CK, C2D, 3.3v and GND pins where it will load both bootloader and firmware to esc.
 After this step, esc can be flashed with 1-Wire interface (Esc's pwm pin).
 
-***Flashing ESC for the first time.
+####Flashing ESC for the first time.
 
 1. Open "Make interfaces" section
 2. Select the Arduino board that will be used as programmer.
